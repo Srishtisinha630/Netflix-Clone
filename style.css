@@ -248,3 +248,109 @@ footer .questions{
     flex-direction: column;
     gap:23px;
 }
+/* For tablets and smaller devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .first, .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text, .secImg {
+        max-width: 100%;
+    }
+
+    .secImg {
+        margin: 20px 0;
+    }
+
+    .faqbox {
+        max-width: 90vw;
+    }
+
+    /* Button adjustments for tablets */
+    nav button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 6px 12px; /* Adjust padding for smaller screens */
+    }
+
+    .hero-buttons input {
+        padding: 8px 16px; /* Adjust padding for input */
+        font-size: 14px; /* Adjust font size for input */
+    }
+
+    .btn-red {
+        padding: 8px 20px; /* Adjust padding for Get Started button */
+        font-size: 18px; /* Adjust font size for Get Started button */
+    }
+
+    .hero {
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .hero > span {
+        font-size: 18px; /* Adjust font size for hero text */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .hero> :first-child {
+        font-size: 24px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .hero-buttons input {
+        padding: 7px 50px 8px 14px;
+        font-size: 12px;
+    }
+
+    .btn-red {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    .faq h2 {
+        font-size: 36px;
+    }
+
+    .faqbox {
+        font-size: 18px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Button adjustments for mobile devices */
+    nav button {
+        font-size: 12px; /* Adjust font size for smaller screens */
+        padding: 4px 8px; /* Adjust padding for smaller screens */
+    }
+
+    .hero-buttons input {
+        padding: 6px 12px; /* Adjust padding for input */
+        font-size: 12px; /* Adjust font size for input */
+    }
+
+    .btn-red {
+        padding: 6px 16px; /* Adjust padding for Get Started button */
+        font-size: 16px; /* Adjust font size for Get Started button */
+    }
+
+    .hero {
+        padding: 15px; /* Add padding for better spacing */
+    }
+
+    .hero > span {
+        font-size: 16px; /* Adjust font size for hero text */
+        margin: 8px 0; /* Add margin for spacing */
+    }
+}
